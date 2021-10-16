@@ -1,0 +1,45 @@
+.home {
+    background-color: $clr1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 414px) {
+      background-color: $clr2;
+    }
+  }
+  
+  .loop-machine-container {
+    @media (max-width: 360px) {
+      margin: 0 15px;
+    }
+  }
+  
+  .loop-machine-title {
+    color: $clr3;
+    @media (max-width: 414px) {
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  .loop-files-display-container {
+    .title {
+      margin-left: 4%;
+      margin-bottom: 10px;
+      color: $clr3;
+    }
+    .selected-loop-files-list {
+      list-style-type: circle;
+      margin-block-start: 0;
+      .file-name {
+        color: $clr8;
+        margin-bottom: 10px;
+      }
+    }
+    .not-selected {
+      color: $clr8;
+      margin-left: 4%;
+    }
+  }
+  

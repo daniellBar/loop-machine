@@ -1,0 +1,90 @@
+.controls {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 8px;
+    @media (max-width: 414px) {
+      width: 100%;
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 20px;
+    }
+    @media (max-width: 360px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  .control-btn-container {
+    position: relative;
+    margin-bottom: 57px;
+    .btn {
+      position: absolute;
+      left: 30%;
+      background-color: $clr3;
+      height: 20px;
+      width: 45px;
+    }
+    &::before {
+      content: "";
+      height: 12px;
+      width: 12px;
+      background-color: $clr4;
+      border-radius: 50%;
+      position: absolute;
+      top: 3px;
+      left: 10%;
+    }
+    &::after {
+      color: $clr8;
+      display: block;
+      position: absolute;
+      top: 25px;
+      left: 30%;
+    }
+  }
+  
+  .control-btn-container.play {
+    &::after {
+      content: "Play";
+    }
+  }
+  
+  .control-btn-container.stop {
+    &::after {
+      content: "Stop";
+    }
+  }
+  
+  .control-btn-container.record {
+    &::after {
+      content: "Record";
+    }
+  }
+  
+  .control-btn-container.play_recording {
+    &::after {
+      content: "Play Recorded";
+    }
+  }
+  .control-btn-container.play {
+    &.active {
+      &::before {
+        background-color: $clr7;
+      }
+    }
+  }
+  
+  .control-btn-container.record {
+    &.active {
+      &::before {
+        background-color: $clr6;
+      }
+    }
+  }
+  
+  .control-btn-container.play_recording {
+    &.active {
+      &::before {
+        background-color: $clr7;
+      }
+    }
+  }
+  

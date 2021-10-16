@@ -1,0 +1,41 @@
+.control-panel {
+    background-color: $clr2;
+    min-width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    gap: 0 20px;
+    @media (max-width: 890px) {
+      display: flex;
+      flex-direction: column;
+    }
+    @media (max-width: 414px) {
+      padding: 20px;
+    }
+    @media (max-width: 360px) {
+      padding: 0;
+    }
+  }
+  
+  .loops-list {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-rows: repeat(3, minmax(80px, 120px));
+    grid-template-columns: repeat(3, minmax(100px, 150px));
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .loop-square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $clr3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    &.active {
+      background-color: $clr5;
+      transform: translateY(5px);
+    }
+  }
+  
