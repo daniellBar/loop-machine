@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/loop-machine/static/css/main.14902d96.chunk.css",
+    "main.js": "/loop-machine/static/js/main.58b09711.chunk.js",
+    "main.js.map": "/loop-machine/static/js/main.58b09711.chunk.js.map",
+    "runtime-main.js": "/loop-machine/static/js/runtime-main.33ec158c.js",
+    "runtime-main.js.map": "/loop-machine/static/js/runtime-main.33ec158c.js.map",
+    "static/js/2.17121186.chunk.js": "/loop-machine/static/js/2.17121186.chunk.js",
+    "static/js/2.17121186.chunk.js.map": "/loop-machine/static/js/2.17121186.chunk.js.map",
+    "static/js/3.e23b7adc.chunk.js": "/loop-machine/static/js/3.e23b7adc.chunk.js",
+    "static/js/3.e23b7adc.chunk.js.map": "/loop-machine/static/js/3.e23b7adc.chunk.js.map",
+    "index.html": "/loop-machine/index.html",
+    "static/css/main.14902d96.chunk.css.map": "/loop-machine/static/css/main.14902d96.chunk.css.map",
+    "static/js/2.17121186.chunk.js.LICENSE.txt": "/loop-machine/static/js/2.17121186.chunk.js.LICENSE.txt",
+    "static/media/120_future_funk_beats_25.5eb417fc.mp3": "/loop-machine/static/media/120_future_funk_beats_25.5eb417fc.mp3",
+    "static/media/120_stutter_breakbeats_16.37c82282.mp3": "/loop-machine/static/media/120_stutter_breakbeats_16.37c82282.mp3",
+    "static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3": "/loop-machine/static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3",
+    "static/media/FUD_120_StompySlosh.27bdc145.mp3": "/loop-machine/static/media/FUD_120_StompySlosh.27bdc145.mp3",
+    "static/media/GrooveB_120bpm_Tanggu.3e1411b4.mp3": "/loop-machine/static/media/GrooveB_120bpm_Tanggu.3e1411b4.mp3",
+    "static/media/MazePolitics_120_Perc.2d08c654.mp3": "/loop-machine/static/media/MazePolitics_120_Perc.2d08c654.mp3",
+    "static/media/PAS3GROOVE1.03B.f77c6da4.mp3": "/loop-machine/static/media/PAS3GROOVE1.03B.f77c6da4.mp3",
+    "static/media/global.scss": "/loop-machine/static/media/Roboto-Regular.03523cf5.ttf",
+    "static/media/SilentStar_120_Em_OrganSynth.f2d668af.mp3": "/loop-machine/static/media/SilentStar_120_Em_OrganSynth.f2d668af.mp3",
+    "static/media/electric guitar coutry slide 120bpm - B.230fcab8.mp3": "/loop-machine/static/media/electric guitar coutry slide 120bpm - B.230fcab8.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33ec158c.js",
+    "static/js/2.17121186.chunk.js",
+    "static/css/main.14902d96.chunk.css",
+    "static/js/main.58b09711.chunk.js"
+  ]
+}
