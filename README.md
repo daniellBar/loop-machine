@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Loop Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://daniellbar.github.io/loop-machine/
 
-## Available Scripts
+## Overview
+This project was written in JS and React Hooks.
+when it comes to component life cycle i am more familiar with classes and the life cycle methods but decided to go with
+the more updates approch of hooks.
+the project is responsive, i checked responsivness for GalaxyS5: 360 x 640 and iPhone6/7/8 plus:414 x 736.
+i didnt use any external libraries, responsiveness is pure css code (sass).
+i wanted to make the selected loops files a dropdown on phone but had no time.
+in order to deploy react project on github.io i used gh-pages library.
+i will remove it from the package.json so that you wont need to install it.
 
-In the project directory, you can run:
+to run the project:
+1) download
+2) open terminal and run : npm i
+3) run: npm start
 
-### `npm start`
+Regarding the bonus:
+i wanted to actually record all actions (not just audio)
+and render it on screen along with the audio.
+it works untill the last action which is not stopping and you will need to stop it yourself,
+also after playing recored you will need to refresh the page in order to record again.
+i know why it doesnt work proprely but had not time to fix it (this also has to do with me choosing to go with hooks)
+  
+![phone](https://res.cloudinary.com/dcnijwmki/image/upload/v1634406441/loop/phone_qwhgdn.png)
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
