@@ -22,7 +22,7 @@ i wanted to actually record all actions (not just audio)
 and render it on screen along with the audio.
 it works untill the last action which is not stopping and you will need to stop it yourself,
 also after playing recored you will need to refresh the page in order to record again.
-i know why it doesnt work proprely but had not time to fix it (this also has to do with me choosing to go with hooks)
+i know why it doesnt work proprely but had no time to fix it (this also has to do with me choosing to go with hooks)
   
 ![phone](https://res.cloudinary.com/dcnijwmki/image/upload/v1634406441/loop/phone_qwhgdn.png)
   
